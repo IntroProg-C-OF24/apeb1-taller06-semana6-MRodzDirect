@@ -1,7 +1,7 @@
+// Facturación de 2 productos: La empresa Amazon.com le contrata como desarrollador de Sistemas Informáticos para programar su sistema de compras online, el cual calcule el precio total de la compra para un cliente. Para ello, se necesita utilizar estructuras secuenciales y de selección (if simple, doble y/o anidadas), sin aplicar ciclos repetitivos. Requesitos especificados en el taller
 package week6;
-import java.awt.BorderLayout;
 import java.util.Scanner;
-public class AmazonFactura {
+public class E01_AmazonFactura {
     public static void main(String[] args) {
          float iva, prod1, prod2 = 0, prod1N, prod2N, stprod1, stprod2, st, civa1, civa2, ivap, stiva, stivadesc, costenvio, tot;
          iva = 0.12f;
@@ -63,3 +63,4 @@ public class AmazonFactura {
    
     
 }
+// By MRodzDirect 😉
