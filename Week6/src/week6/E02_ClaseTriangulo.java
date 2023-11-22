@@ -1,3 +1,4 @@
+// Dado tres valores que representan las longitudes de los lados de un triángulo, determinar su tipo. Las reglas son:
 package week6;
 
 import java.util.Scanner;
@@ -6,12 +7,11 @@ public class E02_ClaseTriangulo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Ingresa la longitud de los 3 lados del triángulo. Por cada lado, ingresa un <enter>");
+        System.out.println("Ingresa el largo de los 3 lados del triángulo (Y te dire su clase ️🔎).");
         float lado1 = sc.nextFloat();
         float lado2 = sc.nextFloat();
         float lado3 = sc.nextFloat();
-        float sum = 0;
-        float big;
+        float sum = 0, big;
        
         if(lado1 >= lado2){
             sum += lado2; 

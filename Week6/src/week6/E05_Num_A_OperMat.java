@@ -27,7 +27,7 @@ public class E05_Num_A_OperMat {
                 op = "division, hermano";
                 break;
             default:
-                op = "no existente";
+                op = "no nos time, esa operacion no existe :( (seleccione del 1 al 4)";
         }
 
         System.out.println("La operacion a realizarse es: " + op);

@@ -10,13 +10,13 @@ public class E03_CostPaquetes {
         int costo;
         System.out.println("Ingrese el peso del paquete en kilos (kg): ");
         float peso = sc.nextFloat();
+        
+        System.out.println("Ingrese la región: local o nacional");
+        String region = sc.next();
 
-        System.out.println("Ingrese la región: 1 para local y 2 para nacional");
-        int region = sc.nextInt();
-
-        if (peso < 5 && region == 1) {
+        if (peso < 5 && region.equals("local")) {
             costo = 5;
-        } else if (peso >= 5 && peso <= 10 && region == 2) {
+        } else if (peso >= 5 && peso <= 10 && region.equals("nacional")) {
             costo = 10;
         } else {
             costo = 15;
